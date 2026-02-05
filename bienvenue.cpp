@@ -3,6 +3,6 @@
 #include "fonction-bienvenue.h"
 
 int main (){
- afficheBienvenue()
+ afficherBienvenue();
 return 0;
 }
