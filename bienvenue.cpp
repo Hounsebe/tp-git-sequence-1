@@ -1,7 +1,8 @@
 #include <iostream>
+
 using namespace std;
 
 int main (){
-	cout << "TODO Afficher un message de bienvenue" <<endl
-	return 0;
+	cout << "Bienvenue le monde!" <<endl
+return 0;
 }
