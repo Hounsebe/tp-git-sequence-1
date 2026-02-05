@@ -1,8 +1,8 @@
-#include <iostream>
+// Affiche un message de bienvenue
 
-using namespace std;
+#include "fonction-bienvenue.h"
 
 int main (){
-	cout << "Bienvenue le monde!" <<endl
+ afficheBienvenue()
 return 0;
 }
