@@ -1,4 +1,5 @@
 L'exécution d'une commande Linux :
+Documenter pour un changement de code
 
 ```sh
 $ make rebuild
