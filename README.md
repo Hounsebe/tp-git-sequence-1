@@ -1,5 +1,6 @@
-L'exécution d'une commande Linux :
-Documenter pour un changement de code
+# Bienvenue
+
+Programme C++ qui affiche un ou plusieurs fois un message de Bienvenue à partir de la ligne de commande :
 
 ```sh
 $ make rebuild
@@ -11,15 +12,17 @@ g++ -o bienvenue bienvenue.o fonction-bienvenue.o
 
 $ ./bienvenue
 Bienvenue le monde !
-```
 
-Le contenu d'un fichier source C++ :
+$ ./bienvenue Bienvenu
+Bienvenue
 
-```cpp
-#ifndef FONCTION_BIENVENUE_H
-#define FONCTION_BIENVENUE_H
+$ ./bienvenue Bienvenue 2
+Bienvenue
+Bienvenue
 
-void afficherBienvenue();
+$ ./bienvenue "Bojour le monde" 3
+Bonjour le monde  
+Bonjour le monde
+Bonjour le monde
 
-#endif // FONCTION_BIENVENUE_H
 ```

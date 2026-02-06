@@ -3,6 +3,6 @@
 
 #include <string>
 
-void afficherBienvenue(std::string message="Bienvenue le monde !");
+void afficherBienvenue(std::string message, int nbAffichage);
 
 #endif // FONCTION_BIENVENUE_H
